@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+require __DIR__.'/vendor/autoload.php';
+
+use Qsnh\Sork\Client;
+use Qsnh\Sork\Server;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+$application->add(new Client());
+$application->add(new Server());
+
+$application->run();

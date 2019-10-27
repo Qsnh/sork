@@ -1,6 +1,12 @@
 {
+    "autoload": {
+        "psr-4": {
+            "Qsnh\\Sork\\": "./src"
+        }
+    },
     "require": {
-        "ext-json": "*"
+        "ext-json": "*",
+        "symfony/console": "^4.3"
     },
     "require-dev": {
         "eaglewu/swoole-ide-helper": "dev-master"
