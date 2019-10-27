@@ -3,6 +3,8 @@
 
 基于 PHP + Swoole 实现的内网穿透工具。
 
+![sork-server](./doc/sork-server.png)
+
 ## Usage
 
 #### 在有公网ip的机器上面启动服务端
