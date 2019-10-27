@@ -5,7 +5,9 @@
         }
     },
     "require": {
+        "php": ">=7.1",
         "ext-json": "*",
+        "ext-swoole": "*",
         "symfony/console": "^4.3"
     },
     "require-dev": {
